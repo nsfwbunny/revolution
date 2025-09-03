@@ -1,19 +1,315 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Page</title>
+    <title>AI Income Revolution - Skyrocket Your Income with AI in 2025</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&family=Montserrat:wght@400;500;800&family=Roboto+Condensed:wght@500&family=Roboto:wght@400;500;800&family=Jockey+One&display=swap" rel="stylesheet">
-    <!-- tsParticles CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@3/tsparticles.engine.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-default@3/tsparticles.preset.default.min.js"></script>
 </head>
 <body>
-    <div id="root"></div>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-content">
+            <div class="logo">AI Income Revolution</div>
+            <a href="#pricing" class="cta-button">Get Instant Access</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="particles-js"></div>
+        <div class="container hero-content">
+            <h1 id="mainHeadline">Harness AI to <span class="highlight">Skyrocket Your Income</span> and Future-Proof Your Career in 2025</h1>
+            <p id="heroSubtitle">Discover the proven strategies to leverage Artificial Intelligence for massive income growth without technical skills or prior experience</p>
+
+            <div class="price-tag" id="priceTag">
+                <span class="original-price">$97</span>
+                <span class="current-price">$47 TODAY ONLY</span>
+            </div>
+
+            <div class="hero-cta" id="heroCta">
+                <a href="#pricing" class="cta-button">Yes, I Want to 10X My Income! <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <p class="hero-counter" id="heroCounter">Join <span id="userCount">12,347</span>+ professionals who have transformed their careers with AI</p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why This AI Revolution is Different</h2>
+                <p>This isn't another theoretical guide - it's a practical blueprint for immediate income growth</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Proven Income Strategies</h3>
+                    <p>Discover 5 low-cost AI business models that can generate $5,000-$10,000/month in extra income</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>No Tech Skills Required</h3>
+                    <p>Zero coding or technical background needed. We focus on using AI, not building it</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Immediate Implementation</h3>
+                    <p>Start seeing results in days, not months. Our 7-day launch checklist gets you started immediately</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Future-Proof Your Career</h3>
+                    <p>Position yourself for the 97 million new AI jobs being created while others fear being replaced</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Curated Tool Arsenal</h3>
+                    <p>Get access to our hand-picked selection of AI tools that deliver maximum ROI with minimal learning curve</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Master Prompt Engineering</h3>
+                    <p>Learn the secret skill that separates basic AI users from high-income professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Success Stories From Our Readers</h2>
+                <p>See how professionals like you are transforming their income with AI</p>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "I went from $4,000 to $12,000/month in just 90 days by implementing the AI freelancing strategies. This ebook paid for itself 100x over!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div>
+                            <strong>Michael Johnson</strong><br>
+                            <span>Freelance Writer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "The prompt engineering section alone was worth the investment. I've doubled my client rates by delivering superior AI-enhanced results."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div>
+                            <strong>Sarah Roberts</strong><br>
+                            <span>Marketing Consultant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "I was able to quit my job and build a 6-figure AI automation agency following the step-by-step blueprint. Life-changing doesn't begin to describe it."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DP</div>
+                        <div>
+                            <strong>David Park</strong><br>
+                            <span>Former Accountant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Preview -->
+    <section class="preview">
+        <div class="container">
+            <div class="section-title">
+                <h2>What You'll Discover Inside</h2>
+                <p>200+ pages of actionable strategies, templates, and blueprints</p>
+            </div>
+
+            <div class="preview-content">
+                <h3>Here's just a fraction of what you'll learn:</h3>
+                <ul class="preview-list">
+                    <li><strong>Debunk AI Myths</strong> - Separate fact from fiction about AI replacing jobs</li>
+                    <li><strong>5 Low-Cost AI Business Models</strong> - Launch in days with minimal investment</li>
+                    <li><strong>Prompt Engineering Mastery</strong> - Get 99% better AI outputs with our proven formula</li>
+                    <li><strong>AI Tool Arsenal</strong> - Curated selection of tools that deliver maximum ROI</li>
+                    <li><strong>Freelancing Blueprint</strong> - How to charge premium rates for AI-enhanced services</li>
+                    <li><strong>Digital Product Creation</strong> - Use AI to create and sell products at lightning speed</li>
+                    <li><strong>Affiliate Marketing 2.0</strong> - Supercharge your campaigns with AI optimization</li>
+                    <li><strong>10x Productivity Hacks</strong> - Automate 80% of your routine tasks with AI</li>
+                    <li><strong>Future-Proofing Strategies</strong> - Become an indispensable AI leader in your field</li>
+                    <li><strong>US Legal & Tax Guidance</strong> - Navigate compliance for your AI business</li>
+                </ul>
+
+                <p style="text-align: center; margin-top: 30px;">
+                    <strong>Plus:</strong> Ready-to-use templates, cheat sheets, and our exclusive 7-day launch checklist!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get Instant Access Today</h2>
+                <p>Invest in your future with this risk-free opportunity</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>The Complete AI Income Revolution</h3>
+                <div class="pricing-price">
+                    <span class="original-price">$97</span> $47
+                </div>
+
+                <p>One-time payment, lifetime access</p>
+
+                <a href="#" class="cta-button pulse">Get Instant Access Now <i class="fas fa-arrow-right"></i></a>
+
+                <div class="guarantee">
+                    <i class="fas fa-shield-alt"></i>
+                    <span><strong>30-Day Money-Back Guarantee:</strong> If you don't see results, we'll refund every penny.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do I need technical skills or coding experience? <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    Absolutely not! This guide is specifically designed for non-technical professionals. We focus on using AI tools, not building them. Everything is explained in simple, actionable steps.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How quickly can I expect to see results? <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    Many of our students see initial results within the first week by implementing the 7-day launch checklist. Significant income growth typically happens within 30-90 days of consistent implementation.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What if AI replaces these opportunities by the time I get started? <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    The World Economic Forum projects 97 million NEW AI-related jobs by 2025. We're at the very beginning of this transformation. The strategies in this guide are designed to evolve with the technology, ensuring long-term relevance.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What's included in the purchase? <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    You'll get instant access to the complete 200+ page ebook, plus all bonuses including cheat sheets, templates, and our exclusive 7-day launch checklist. All future updates are included at no additional cost.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Is there a money-back guarantee? <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    Yes! We offer a full 30-day money-back guarantee. If you implement the strategies and don't see results, simply email us for a full refund, no questions asked.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="pricing-card">
+                <h2>Ready to Transform Your Income with AI?</h2>
+                <p>Join thousands of professionals who are future-proofing their careers and multiplying their income</p>
+
+                <div class="pricing-price">
+                    <span class="original-price">$97</span> $47
+                </div>
+
+                <a href="#" class="cta-button pulse">Yes, I Want Instant Access! <i class="fas fa-arrow-right"></i></a>
+
+                <div class="guarantee">
+                    <i class="fas fa-lock"></i>
+                    <span>Secure checkout · One-time payment · Lifetime access</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">AI Income Revolution</div>
+                <p>© 2025 AI Income Revolution. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Disclaimer: Results may vary based on individual effort and implementation. This is not a get-rich-quick scheme but a legitimate educational product.</p>
+                <p><a href="#" style="color: #ccc;">Privacy Policy</a> | <a href="#" style="color: #ccc;">Terms of Service</a> | <a href="#" style="color: #ccc;">Contact</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
